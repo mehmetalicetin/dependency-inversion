@@ -1,0 +1,17 @@
+package com.example.sfgdependencyinversion.with;
+
+/**
+ * @Author mehmetali.cetin
+ * @Date 2022-07-21
+ */
+public class LightBulb implements Switchable{
+    @Override
+    public void turnOn() {
+        System.out.println("LightBulb: Bulb turned on...");
+    }
+
+    @Override
+    public void turnOff() {
+        System.out.println("LightBulb: Bulb turned off...");
+    }
+}
